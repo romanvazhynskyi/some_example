@@ -1,0 +1,24 @@
+{
+    "name": "rvazh/some_example",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Roman Vazhynskyi",
+            "email": "rvazhynskyi@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "vimeo/psalm": "^4.6",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "RefactoringExample\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RefactoringExample\\Tests\\": "tests"
+        }
+    }
+}
